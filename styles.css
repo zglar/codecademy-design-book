@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400&family=Noto+Sans+JP:wght@400;700&family=Yusei+Magic&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 16px;
+    background-color: #f9f9f9;
+}
+
+h1 {
+    font-family: "Yusei Magic", serif;
+    font-size: 32px;
+}
+
+.title-header {
+    padding: 10px;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Karla", sans-serif;
+    font-size: 24px;
+}
+
+.container {
+    border: 2px solid #DAE0E6;
+    border-radius: 6px;
+    box-shadow: 0px 3px 8px #cdcdcd;
+    padding: 5px 30px 10px;
+    width: 80%;
+    margin: 30px auto;
+    overflow: auto;
+    background-color: #FFF;
+}
+
+.container:hover {
+    border: 1px solid #6c6e70;
+}
+
+.color-container {
+    display: inline-block;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.color-label {
+    display: inline-block;
+    float: left;
+    padding: 40px;
+    width: 18%;
+}
+
+.color-label:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.brown {
+    background-color: #A84745;
+    color: #FFF;
+    text-align: center;
+}
+
+.yellow {
+    background-color: #F5F556;
+    text-align: center;
+}
+
+.pink {
+    background-color: #F57F7D;
+    text-align: center;
+}
+
+.blue {
+    background-color: #3BA7F5;
+    text-align: center;
+}
+
+.grey-blue {
+    background-color: #5B87A6;
+    text-align: center;
+}
+
+.font-container {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.font-label {
+    display: inline-block;
+    width: 45%;
+    margin: 10px 5px;
+    vertical-align: text-top;
+}
+
+.font-label > .font-header {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.font-label > .bold {
+    font-weight: 700;
+}
+
+.font-label > .italic {
+    font-style: italic;
+}
+
+.yusei {
+    font-family: "Yusei Magic";
+}
+
+.karla {
+    font-family: "Karla";
+}
+
+.noto {
+    font-family: "Noto Sans JP";
+}
+
+.text-styles-label {
+    display: block;
+    margin: 20px 0;
+}
+
+.text-styles-label h1, h2, p {
+    margin-bottom: 2px;
+}
+
+.text-styles-label ul {
+    position: relative;
+    top: -10px;
+}
