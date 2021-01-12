@@ -48,10 +48,10 @@ h2 {
 }
 
 .color-label {
-    display: inline-block;
     float: left;
     padding: 40px;
     width: 18%;
+    text-align: center;
 }
 
 .color-label:hover {
@@ -62,27 +62,22 @@ h2 {
 .brown {
     background-color: #A84745;
     color: #FFF;
-    text-align: center;
 }
 
 .yellow {
     background-color: #F5F556;
-    text-align: center;
 }
 
 .pink {
     background-color: #F57F7D;
-    text-align: center;
 }
 
 .blue {
     background-color: #3BA7F5;
-    text-align: center;
 }
 
 .grey-blue {
     background-color: #5B87A6;
-    text-align: center;
 }
 
 .font-container {
